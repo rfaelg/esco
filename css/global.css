@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Barrio&family=Faculty+Glyphic&family=Federo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Metamorphous&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pathway+Gothic+One&family=Patrick+Hand&family=Playpen+Sans:wght@100..800&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Science+Gothic:wght@100..900&family=Squada+One&family=Uncial+Antiqua&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --titp: "Abril Fatface", serif;
+  --texp: "PT Serif", serif;
+  --titm: "Josefin Sans", sans-serif;
+  --texm: Urbanist, sans-serif;
+  --titc: "Science Gothic", sans-serif;
+  --texc: Quantico, sans-serif;
+  --tith: "Uncial Antiqua", serif;
+  --texh: Metamorphous, serif;
+  --titg: "Squada One", sans-serif;
+  --texg: "Pathway Gothic One", sans-serif;
+  --tita: Barrio, cursive;
+  --texa: Aclonica, sans-serif;
+  --titef: "Patrick Hand", cursive;
+  --texef: "Playpen Sans", cursive;
+  --titer: "Faculty Glyphic", serif;
+  --texer: Federo, sans-serif;
+}
+header, main{
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.titptg{
+  font-family: var(--titp);
+}
+.titmat{
+  font-family: var(--titm);
+}
+.titcie{
+  font-family: var(--titc);
+}
+.tithis{
+  font-family: var(--tith);
+}
+.titgeo{
+  font-family: var(--titg);
+}
+.titart{
+  font-family: var(--tita);
+}
+.titenr{
+  font-family: var(--titer);
+}
+.titedf{
+  font-family: var(--titef);
+}
