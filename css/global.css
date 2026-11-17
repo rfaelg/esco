@@ -48,3 +48,27 @@ header, main{
 .titedf{
   font-family: var(--titef);
 }
+.texptg{
+  font-family: var(--texp);
+}
+.texmat{
+  font-family: var(--texm);
+}
+.texcie{
+  font-family: var(--texc);
+}
+.texhis{
+  font-family: var(--texh);
+}
+.texgeo{
+  font-family: var(--texg);
+}
+.texart{
+  font-family: var(--texa);
+}
+.texenr{
+  font-family: var(--texer);
+}
+.texedf{
+  font-family: var(--texef);
+}

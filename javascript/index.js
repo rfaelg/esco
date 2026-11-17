@@ -46,4 +46,7 @@ body.style.backgroundColor = cor[coresc] [1];
 pagtit.forEach(tit => {
   tit.classList.add(titulo[tituloesc]);
 });
+pgtex.forEach(tex => {
+  tex.classList.add(texto[textoesc]);
+});
 console.log(coresc);
