@@ -40,7 +40,7 @@ const main = document.getElementById('main');
 const body = document.getElementById('body');
 header.style.backgroundColor = cor[coresc] [0];
 const pagtit = document.querySelectorAll('h1');
-const pgtex = document.querySelectorAll('p');
+const pgtex = document.querySelectorAll('header p');
 main.style.backgroundColor = cor[coresc] [0];
 body.style.backgroundColor = cor[coresc] [1];
 pagtit.forEach(tit => {
@@ -49,4 +49,6 @@ pagtit.forEach(tit => {
 pgtex.forEach(tex => {
   tex.classList.add(texto[textoesc]);
 });
-console.log(coresc);
+if (coresc === 0) {
+  header.style.color = "#FFF";
+};
