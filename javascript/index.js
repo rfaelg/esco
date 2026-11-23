@@ -5,7 +5,7 @@ const cor = [
   ["#E00800", "#FF6B66"],
   ["#683B00", "#B26500"],
   ["#FF7200", "#FFA257"],
-  ["#FFF600", "#FFF94B"],
+  ["#FFF600", "#8B8600"],
   ["#9E38F3", "#CF95FF"]
 ];
 
@@ -39,7 +39,7 @@ const header = document.getElementById('header');
 const main = document.getElementById('main');
 const body = document.getElementById('body');
 header.style.backgroundColor = cor[coresc] [0];
-const pagtit = document.querySelectorAll('h1, h2, h3');
+const pagtit = document.querySelectorAll('h1');
 const pgtex = document.querySelectorAll('p');
 main.style.backgroundColor = cor[coresc] [0];
 body.style.backgroundColor = cor[coresc] [1];

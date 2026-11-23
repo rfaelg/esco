@@ -24,12 +24,71 @@ header, main{
   margin: 10px;
 }
 article{
-  background-color: #808080;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+  border: 2px dashed;
 }
-
+article a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.cm{
+  background-color: #00C8FF;
+  border-color: #94E8FF;
+}
+.cm a{
+  color: #005E78;
+}
+.cp{
+  background-color: #0200FF;
+  border-color: #6362FF;
+}
+.cp a{
+  color: #C4C4FF;
+}
+.ch{
+  background-color: #E00800;
+  border-color: #FF6B66;
+}
+.ch a{
+  color: #6B0400;
+}
+.cc{
+  background-color: #00E038;
+  border-color: #72FF94;
+}
+.cc a{
+  color: #00691A;
+}
+.cg{
+  background-color: #683B00;
+  border-color: #B26500;
+}
+.cg a{
+  color: #FFE4C0;
+}
+.ca{
+  background-color: #FF7200;
+  border-color: #FFA257;
+}
+.ca a{
+  color: #753400;
+}
+.cef{
+  background-color: #FFF600;
+  border-color: #8B8600;
+}
+.cef a{
+  color: #A29C00;
+}
+.cer{
+  background-color: #9E38F3;
+  border-color: #CF95FF;
+}
+.cer a{
+  color: #370066;
+}
 .titptg{
   font-family: var(--titp);
 }
